@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>ManilArt | Curating the City</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:900i|Roboto:900" rel="stylesheet">
+
+    <style type="text/css">
+    body {
+    	padding-top: 50px;
+    	/*background-color: #DC5C05;*/
+    }
+    .row {
+   		width: 80%;
+   		margin: auto;
+    }
+    .row2{
+    	width: 100%;
+    	margin: auto;
+    }
+    .col-md-12 {
+    	padding: 0px;
+    }
+/*	div.row { 
+  		border: 1px solid;
+  	}*/
+/*  	.col-md-7 { 
+  		padding-left: 0px;
+  	}*/
+  	.col-md-6 {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+/*	.featcol1 {
+		margin-right: 10px;
+		margin-left: 10px;
+	
+	}
+	.featcol2 {
+		margin-right: 10px;
+		margin-left: 10px;
+	
+	}*/
+	hr {
+	    margin-top: 0px;
+	    margin-bottom: 0px;
+	    border: 0;
+	    border-top: 2px solid black;
+	}
+	#feat {
+		font-family: 'Roboto', sans-serif;
+		font-size: 30px;
+		margin: 0px;
+	}
+	.col-md-10 {
+		padding-left: 0px;
+	}
+	.backtotop {
+		position: relative;
+		left: 20px;
+		bottom: 20px;
+	}
+	p.cap {
+		min-height: 100px;
+	}
+    </style>
+
+</head>
+
+<body>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+<!-- start of navbar -->
+
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="manilart.html">
+    	<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      	<li><a href="feature.html">FEATURE</a></li>
+        <li class="dropdown">
+	        <a class="dropdown-toggle" data-toggle="dropdown" href="#">GALLERIES
+	        <span class="caret"></span></a>
+	        <ul class="dropdown-menu">
+	          <li><a href="calvomuseum.html">Calvo Museum</a></li>
+	          <li><a href="metropolitanmuseum.html">Metropolitan Museum of Manila</a></li>
+	          <li><a href="nationalmuseum.html">National Museum of the Philippines</a></li>
+	        </ul>
+	    </li> 
+      </ul>
+      <form class="navbar-form navbar-right">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!-- end of navbar -->
+<div id="toppage"></div>
+<!-- start of image header -->
+<div style="background-color: #f02800">
+<div class="row"> 
+  <img src="images/manilart/header.png" class="img-responsive" alt="ManilArt Image Header"> 
+</div>
+</div>
+<hr />
+<!-- end of image header -->
+
+<!-- start of carousel -->
+<div class="row2">
+	
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	    <li data-target="#myCarousel" data-slide-to="1"></li>
+	    <li data-target="#myCarousel" data-slide-to="2"></li>
+	  </ol>
+
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner">
+	    <div class="item active">
+	      <img src="images/manilart/calvo2.jpg" alt="Calvo Museum">
+	      <div class="carousel-caption">
+	        <h4>Calvo Museum</h4>
+	        <p>Escolta cor. Soda Streets, Binondo, Manila</p>
+	      </div>
+	    </div>
+
+	    <div class="item">
+	      <img src="images/manilart/met2.jpg" alt="Metropolitan Museum of Manila">
+	      <div class="carousel-caption">
+	        <h4>Metropolitan Museum of Manila</h4>
+	        <p>BSP Complex, Roxas Blvd, Malate, Manila</p>
+	      </div>
+	    </div>
+
+	    <div class="item">
+	      <img src="images/manilart/nat2.jpg" alt="National Museum of the Philippines">
+	      <div class="carousel-caption">
+	        <h4>National Museum of the Philippines</h4>
+	        <p>Padre Burgos Ave, Ermita, Manila</p>
+	      </div>
+	    </div>
+	  </div>
+
+	  <!-- Left and right controls -->
+	  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+			
+</div>
+<!-- end of carousel -->
+
+<!-- start of featured header -->
+<br />
+<div class="row">
+<div class="panel panel-default">
+  <div class="panel-body">
+    <p id="feat">FEATURE</p>
+  </div>
+</div>
+</div>
+<!-- end of featured header -->
+
+<!-- start of features -->
+
+<div class="row">
+	<!-- start of column 1 -->
+	<div class="col-sm-6">
+		<!-- <div class="col-md-12"> -->
+		    <div class="thumbnail">
+		      <img src="images/manilart/biennale.png" width="70%" alt="Manila Biennale 2018">
+		      <div class="caption">
+		        <h3>Manila Biennale: Open City 2018</h3>
+		        <p class="cap">The first Manila Biennale will be set inside the walled city of Intramuros from February 2 until March 5, 2018. For an entire month, its many gardens, plazas, chambers, and museums will be transformed into platforms for art, performance and expression.</p>
+		        <p align="right"><a href="manilabiennale.html" class="btn btn-primary" role="button">Read More</a></p>
+		      </div>
+		    </div>
+		<!-- </div> -->
+		<!-- <div class="col-md-12"> -->
+		    <div class="thumbnail">
+		      <img src="images/manilart/theater.jpg" width="70%" alt="Manila Metropolitan Theater">
+		      <div class="caption">
+		        <h3>A peek into Metropolitan Theater's restoration</h3>
+		        <p class="cap">A fully restored Metropolitan Theater is targeted to open in 2020. Heritage architect Gerard Lico made the statement Saturday when the Met, as the theater is fondly called, opened its doors to showcase the first phase of its ongoing restoration.</p>
+		        <p align="right"><a href="metropolitantheater.html" class="btn btn-primary" role="button">Read More</a></p>
+		      </div>
+		    </div>
+		<!-- </div> -->
+	</div>
+	<!-- end of column 1 -->
+
+	<!-- start of column 2 -->
+	<div class="col-sm-6">
+		<!-- <div class="col-md-12"> -->
+		    <div class="thumbnail">
+		      <img src="images/manilart/bambike.png" width="70%" alt="Bambike Evolution Cycles">
+		      <div class="caption">
+		        <h3>Experience Ecotours with Bambikes</h3>
+		        <p class="cap">Bambike Ecotours provides exciting and educational ecotourism activities. Guests ride on bamboo bikes that have been handmade by Gawad Kalinga villagers here in the Philippines.</p>
+		        <p align="right"><a href="bambikes.html" class="btn btn-primary" role="button">Read More</a></p>
+		      </div>
+		    </div>
+		<!-- </div> -->
+		<!-- <div class="col-md-12"> -->
+		    <div class="thumbnail">
+		      <img src="images/manilart/abueva.jpg" width="70%" alt="Napoleon Abueva">
+		      <div class="caption">
+		        <h3>In Memoriam: Napoleon Abueva’s iconic work</h3>
+		        <p class="cap">National Artist for Visual Arts (Sculpture) Napoleon Abueva died at 88 on Friday, February 16, but he lives on in the work he left behind. Below are some of Abueva’s work that have been woven into the Philippines’ history and culture.</p>
+		        <p align="right"><a href="napoleonabueva.html" class="btn btn-primary" role="button">Read More</a></p>
+		      </div>
+		    </div>
+		<!-- </div> -->
+	</div>
+	<!-- end of column 2 -->
+</div>
+<a href="#toppage"><img class="backtotop" class="img-responsive" src="images/manilart/arrow.png"></a>
+<!-- end of features -->
+
+<!-- start of footing -->
+<div class="whole" style="background: lightsteelblue">
+<div class="row">
+	<div class="col-md-6">
+		<div class="container-fluid">
+			<h4>STAY CONNECTED</h4>
+
+			<p>Subscribe to MANILArt and receive weekly updates.</p>
+			<div class="col-md-10">
+		    <div class="input-group">
+		      <input type="text" class="form-control" placeholder="Email Address" width="200px">
+		      <span class="input-group-btn" position="inline-block">
+		        <button class="btn btn-default" type="button">Subscribe</button>
+		      </span>
+		    </div><!-- /input-group -->
+			</div>
+
+			<br />
+			<br />
+			<br />
+
+			<div>
+				<a href="http;//www.facebook.com/"><img src="images/manilart/facebook.png" width= "40px"></a>&nbsp&nbsp&nbsp
+				<a href="http://www.instagram.com/"><img src="images/manilart/instagram.png" width= "40px"></a>&nbsp&nbsp&nbsp
+				<a href="http://www.twitter.com/"><img src="images/manilart/twitter.png" width= "40px"></a>
+			</div>
+			<br />
+		</div>
+	</div>
+	<div class="col-md-6">
+		<div class="container-fluid">
+			<h4>ABOUT MANILArt</h4>
+
+			<p>MANILArt is an arts and humanities website which aims to promote the history and culture of Manila.</p>
+			<span>
+			<img src="images/manilart/intramuros.jpg" height="70px">&nbsp&nbsp
+			<img src="images/manilart/ncca.png" height="70px">&nbsp&nbsp
+			<img src="images/manilart/manila.png" height="70px">&nbsp&nbsp&nbsp
+			<img src="images/manilart/morefun.jpg" height="70px">
+			</span>
+			<br />
+		</div>
+	</div>
+</div>
+</div>
+<!-- end of footing -->
+
+</body>
+</html>
